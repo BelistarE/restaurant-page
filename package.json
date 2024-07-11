@@ -1,0 +1,15 @@
+{
+  "name": "restpage",
+  "version": "1.0.0",
+  "description": "odin project restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bels",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
