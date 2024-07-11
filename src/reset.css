@@ -25,6 +25,12 @@ body {
     font-weight: bold;
 }
 
-button{
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
   cursor: pointer;
 }
