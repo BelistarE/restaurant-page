@@ -24,6 +24,7 @@ module.exports = {
     new HtmlWebpackPlugin({
         template: './src/index.html',
         filename: 'index.html',
+        favicon: './images/pink-paw-print.svg',
         inject: 'body',
     }),
   ],
