@@ -34,9 +34,12 @@ const homeDisplay = {
     appendRight: function(){
         const titleH1 = document.createElement('h1');
         titleH1.textContent = "BELI'S × ネコぱら";
+        const belowTitle = document.createElement('h3');
+        belowTitle.textContent = "Bakery";
 
         //append all
         this.right.appendChild(titleH1);
+        this.right.appendChild(belowTitle);
     },
     
 };
