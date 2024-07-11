@@ -1,0 +1,41 @@
+@import url('reset.css');
+
+/* ------------home styling --------------*/
+#contentHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; /* Center the content horizontally */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the flex items horizontally */
+}
+
+#nav-buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
