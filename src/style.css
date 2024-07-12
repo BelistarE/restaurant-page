@@ -13,21 +13,24 @@ nav{
 button{
     border: none;
     width: 100px;
-    height: 80px;
+    height: 60px;
+    background-color: white;
 }
 #nav-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    padding: 20px;
 }
 /* ------------home styling --------------*/
 #contentHome{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    height: 100%;
 }
+
 
 
 
