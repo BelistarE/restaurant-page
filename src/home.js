@@ -1,4 +1,4 @@
-import nekopara from '../images/nekopara_by_wildmuffin2000_dfevkdv-414w-2x.jpg';
+import nekopara from '../images/nekopara_by_wildmuffin2000_dfevkdv-414w-2x.png';
 
 const homeDisplay = {
     content: document.querySelector('#content'),
@@ -6,6 +6,9 @@ const homeDisplay = {
         console.log('homeDisplay initialized');
 
         this.content.setAttribute("id", "contentHome"); //set id for css
+        while (this.content.firstChild) {
+            this.content.removeChild(this.content.firstChild);
+        }
         this.appendContainers();
         this.appendLeft();
         this.appendRight();

@@ -104,7 +104,7 @@ const menuDisplay = {
 
         if (food.second) {
             console.log(food);
-            menuFood.classList.add('secondMenu');
+            menuFood.classList.add('second-menu');
             menuFood.appendChild(foodDesc);
             menuFood.appendChild(foodImgContainer);
         }else{
