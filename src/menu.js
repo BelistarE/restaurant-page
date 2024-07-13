@@ -37,8 +37,8 @@ const menuDisplay = {
             foodName: 'omurice',
             img: omurice,
             name: 'Melty Omurice',
-            pText: 'Omurice with softly cooked eggs! <br> A colorful enticing dish!',
-            price: '¥990',
+            pText: 'Omurice with softly cooked eggs! <br> A colorful, enticing dish!',
+            price: '$9.99',
             second: true,
         },
         myMilkcoco: {
@@ -46,30 +46,31 @@ const menuDisplay = {
             img: milkcoco,
            name: 'Honey Milk Coco',
             pText: 'Milk cream filled baked coco topped off with plenty of sweet honey!',
-            price: '¥790',
+            price: '$7.99',
             second: false,
         },
         myMilfleure: {
             foodName: 'milfleure',
             img: milfleure,
             name: "Rockin' Millefeuille",
-            pText: 'Tall tower of brownies, icecream, and chocolate.<br> Having the usual exquisite taste of Millefeuille!',
-            price: '¥790',
+            pText: 'Tall tower of brownies, icecream, and chocolate.<br> Just like classic Millefeuille!',
+            price: '$8.99',
             second: true,
         },
         myParfey: {
             foodName: 'parfey',
             img: parfey,
-            name: "Classic Honey Tea Parfait",
-            pText: "Honey's alluring taste is quite shown boldly in this desert. <br> A strong recommendation to savor!",
-            price: '¥890',
+            name: "Honey Tea Parfait",
+            pText: "Bold taste of honey in a sweet desert. <br> We strongly reccomend you to try this!",
+            price: '$7.99',
             second: false,
         },
         myMatcha: {
             foodName: 'matcha',
             img: matcha,
             name: "Tapioca Matcha Milk",
-            price: '¥500',
+            pText: "Matcha milk tea with tapioca pearls",
+            price: '$5.99',
             second: true,
         },
 
@@ -102,6 +103,10 @@ const menuDisplay = {
         const price = document.createElement('h2');
         price.textContent = `${food.price}`;
 
+        const description = document.createElement("p");
+        description.innerHTML = food.pText;
+
+        //align every other food item
         if (food.second) {
             console.log(food);
             menuFood.classList.add('second-menu');
@@ -115,6 +120,8 @@ const menuDisplay = {
         foodImgContainer.appendChild(foodImg);
 
         foodDesc.appendChild(price);
+
+        foodDesc.appendChild(description);
 
         this.content.appendChild(menuFood);
         

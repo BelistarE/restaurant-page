@@ -94,14 +94,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 32px;
+    border-radius: 30px;
     padding: 10px 0px;
-    background-color: var(--MuleFawn);
-    width: 450px;
-    max-height: 200px;
+    background-color: #ffd0d6;
+    width: 500px;
+    max-height: 500px;
     padding: 10px 32px;
+    border: 10px solid #ecbe95;
 }
-
+.food-img > img{
+  height: 250px;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
+}
 .second-menu {
     justify-content: flex-end;
 }
