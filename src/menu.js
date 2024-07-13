@@ -28,15 +28,15 @@ const menuDisplay = {
         myBeefstew: {
             foodName: 'beefstew',
             img: beefstew,
-            name: 'Luxurious Beefstew Hamburger',
+            name: 'Beefstew Hamburger',
             pText: 'Delicious combination of beefstew and burger steak!',
-            price: '¥1,190',
+            price: '$15.99',
             second: false,
         },
         myOmurice: {
             foodName: 'omurice',
             img: omurice,
-            name: 'Colorfuly Melty Omurice',
+            name: 'Melty Omurice',
             pText: 'Omurice with softly cooked eggs! <br> A colorful enticing dish!',
             price: '¥990',
             second: true,
