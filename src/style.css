@@ -10,10 +10,26 @@
     background-color: #ffd0d6;
     height: auto;
   }
+  body::-webkit-scrollbar {
+    display: none;
+}
   
   nav {
     display: flex;
     justify-content: space-between;
+  }
+  #nav-buttons > button:hover{
+    background-color: rgb(226, 226, 226);
+  }
+  #nav-buttons >  button:active{
+    background-color: #929292;
+  }
+
+  #nav-buttons > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .logo > img {
@@ -28,10 +44,10 @@
   }
   
   body {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Ensure body stretches to full height */
+    flex-direction: column; 
   }
   
   
@@ -42,7 +58,7 @@
     gap: 20px;
     padding: 20px;
   }
-  
+
   /* ------------home styling --------------*/
   #contentHome {
     background-image: url(../images/gbpBgCoco.png);
@@ -51,12 +67,12 @@
     background-position: center;
     display: flex;
     justify-content: space-around;
-    align-items: stretch; /* Ensure children stretch vertically */
-    flex: 1; /* Allow #contentHome to take remaining vertical space */
+    align-items: stretch; 
+    flex: 1; 
   }
 
   .nekopara-img{
-    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8)); /* Adjust shadow values */
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8)); 
   }
 
   #right{
@@ -110,12 +126,22 @@
     justify-content: flex-end;
 }
   
-/*------------menu styling -------------*/
+/*------------about styling -------------*/
 #first{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 100px;
+  background-color: white;
+  padding: 50px;
+  z-index: 5;
+
 }
   
-
+#aboutMenu{
+  height: 100vh;
+  background-image: url('../images/sakura\ background.avif');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: repeat;
+}

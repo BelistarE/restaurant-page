@@ -32,3 +32,4 @@ import aboutDisplay from './about';
     }
     mainModule.init();
 })();
+
