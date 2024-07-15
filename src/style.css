@@ -10,7 +10,7 @@
   /*-------------nav styling----------------*/
   header {
     background-color: #ffd0d6;
-    height: 20%;
+    height: 15%;
     font-family: "Caveat", cursive;
   }
   body::-webkit-scrollbar {
@@ -21,8 +21,12 @@
     display: flex;
     justify-content: space-between;
   }
+  #nav-buttons button {
+    transition: transform 0.3s ease;
+}
   #nav-buttons > button:hover{
     background-color: rgb(226, 226, 226);
+    transform: translateY(-7px);
   }
   #nav-buttons >  button:active{
     background-color: #929292;
@@ -30,7 +34,7 @@
 
   
   .logo > img {
-    width: 150px;
+    width: 100px;
   }
   
   button {
@@ -70,7 +74,7 @@
     align-items: stretch; 
     flex: 1; 
     font-family: "Noto Sans JP", sans-serif;
-    height: 80%;
+    height: 85%;
   }
 
   .nekopara-img{
