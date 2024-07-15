@@ -6,6 +6,7 @@ const homeDisplay = {
         console.log('homeDisplay initialized');
 
         this.content.setAttribute("id", "contentHome"); //set id for css
+        
         while (this.content.firstChild) {
             this.content.removeChild(this.content.firstChild);
         }
