@@ -29,7 +29,8 @@
     transform: translateY(-7px);
   }
   #nav-buttons >  button:active{
-    background-color: #929292;
+    background-color: #584b4b;
+    color: white;
   }
 
   
