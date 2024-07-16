@@ -10,7 +10,7 @@
   /*-------------nav styling----------------*/
   header {
     background-color: #ffd0d6;
-    height: 15%;
+    height: 10%;
     font-family: "Caveat", cursive;
   }
   body::-webkit-scrollbar {
@@ -20,6 +20,12 @@
   nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+  nav > h1 {
+    color: #584b4b;
+    font-size: 70px;
+
   }
   #nav-buttons button {
     transition: transform 0.3s ease;
@@ -35,7 +41,7 @@
 
   
   .logo > img {
-    width: 100px;
+    width: 150px;
   }
   
   button {
@@ -71,11 +77,11 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    justify-content: space-around;
     align-items: stretch; 
     flex: 1; 
     font-family: "Noto Sans JP", sans-serif;
-    height: 85%;
+    height: 90%;
+    justify-content: space-around ;
   }
 
   .nekopara-img{
@@ -87,9 +93,9 @@
     margin: 0 auto; 
   }
  #left{
-    flex: 1; 
     display: flex;
     justify-content: center;
+    max-width: 50%;
  }
  #left > div {
   max-width: 100%; 
@@ -120,6 +126,9 @@
     background-image: url(../images/flowers-background);
     background-repeat: repeat;
     background-size: 200px 200px; 
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 90%;
 }
 #menu-food{
     display: flex;
@@ -182,7 +191,7 @@
 }
   
 #aboutMenu{
-  height: 100vh;
+  height: 90%;
   background-image: url(../images/flowers-background);
     background-repeat: repeat;
     background-size: 200px 200px; 
